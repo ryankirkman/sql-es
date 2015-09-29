@@ -1,6 +1,6 @@
 {
   "name": "sql-es",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Use SQL syntax to query a custom REST API with ElasticSearch-like parameters",
   "main": "sql-es.js",
   "bin": {
@@ -13,5 +13,9 @@
     "minimist": "^1.2.0",
     "request": "^2.64.0",
     "sql-parser": "^0.5.0"
-  }
+  },
+  "repository" :
+    { "type" : "git"
+    , "url" : "https://github.com/ryankirkman/sql-es.git"
+    }
 }
