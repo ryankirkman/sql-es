@@ -1,11 +1,8 @@
 {
-  "name": "sql_elasticsearch",
+  "name": "sql-es",
   "version": "1.0.0",
-  "description": "Use SQL syntax to query ElasticSearch",
+  "description": "Use SQL syntax to query a custom REST API with ElasticSearch-like parameters",
   "main": "sql-es.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "bin": {
     "sql-es": "sql-es.js"
   },
