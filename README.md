@@ -10,8 +10,6 @@ Install (as a command line util)
 
 Usage
 =====
-NB: The input file will be assigned to a variable called `json` for use in the `--array` command line argument.
-
 `-h` or `--host`: Host template. Note `{product}` in the template below. `sql-es` will substitute in the `table` value from the SQL query. Note for the host that HTTP will be assumed and prepended.
 
 `-q` or `--query`: The SQL query
